@@ -1,0 +1,166 @@
+/* CSS for portfolio website
+Date Created: May 7 2021
+*/
+
+body{
+
+	font-family: arial, sans-serif;
+	fon-size: 15px;
+	line-height: 2.5;
+	color: black; 
+	background-color:#e6eaf0;	
+	margin: 0px;
+	padding: 0px;
+}
+
+body, html {
+  height: 100%;
+}
+
+#wrapper{
+
+  	background-image: url("../algernew.png");
+  	/* Full height */
+  	height: 100%;
+  	/* Center and scale the image  */
+  	background-position: center;
+  	background-repeat: no-repeat;
+ 	background-size: cover;
+  	top:0px; bottom: 0px;
+	height: 100%;
+    background-repeat: repeat;
+    position: absolute;
+    overflow-x: scroll;	
+}
+h1{
+	color: #36455c;
+	font-size: 27px;
+	text-align: center;
+
+}
+h2{
+	font-size: 30px;
+	font-weight: bold;
+	color: #36455c;
+	text-align: center;
+		
+}
+
+header{
+	padding: 60px;
+	
+}
+.green{
+	
+	
+	background-color: rgb(0,0,0); /* Fallback color */
+ 	background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  	color: white;
+	box-sizing: border-box;
+	margin-bottom: 50px;
+	text-align: center;
+	font-style: italic;
+	font-size: 20px;
+	padding: 10px;
+	margin-top: 100px;
+	margin-right: 200px;
+	margin-left: 200px;
+	
+	
+}
+/* two colmn display */ 
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+
+.column {
+  flex: 50%;
+  margin: 10px;
+  padding: 10px;
+  height: 300px; 
+}
+
+
+.nice{
+	
+	background-color: rgb(0,0,0); /* Fallback color */
+ 	background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  	color: white;
+	box-sizing: border-box;
+	padding: 10px;
+
+}
+
+.pdf{
+	background-color: rgb(0,0,0); /* Fallback color */
+ 	background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  	color: white;
+	box-sizing: border-box;
+	padding: 10px;
+	height: 500px;
+
+}
+
+nav {
+	display:block;
+	text-align: right;
+	font-weight: bold; 
+	text-decoration: none; 
+	color:#36455c;
+} 
+
+a:link{											
+	font-weight: bold; 
+	text-decoration: none; 
+	color:#36455c;
+}
+
+a:visited{												
+	font-weight: bold;
+	text-decoration: none;
+	color: #36455c;
+	
+}
+
+a:hover{										
+	text-decoration: none;
+	font-weight: normal;
+	color: #4c4d4f;
+	font-style: italic;
+}
+
+table{
+	
+	border: thin solid white;
+	border-collapse: collapse;
+	width: 100%;
+	color: #3b2403;
+	font-size: 15px;
+}
+
+td,th{
+
+	border: thin dotted white;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            
+}
+footer{	
+	 position: relative;
+	 font-weight: bold;
+	 bottom: 0;
+	 width: 100%;
+	 height: 2.5rem; 										
+	 font-size: 15px;
+	 text-align: center;
+	 color:#36455c;
+}
